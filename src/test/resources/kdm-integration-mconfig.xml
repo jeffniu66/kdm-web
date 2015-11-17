@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mconfigs>
+  <mconfig filePath="./conf/eclipseLink-jdbc.properties">
+    <mcitem>
+      <keyName>javax.persistence.jdbc.url</keyName>
+      <desc>数据库路径</desc>
+      <defValue>jdbc:postgresql://localhost:5432/xianjiaba1207</defValue>
+      <keyValue>jdbc:postgresql://localhost:5432/xianjiaba1207</keyValue>
+      <enable>true</enable>
+    </mcitem>
+    <mcitem>
+      <keyName>javax.persistence.jdbc.user</keyName>
+      <desc>数据库用户名</desc>
+      <defValue>postgres</defValue>
+      <keyValue>postgres</keyValue>
+      <enable>true</enable>
+    </mcitem>
+    <mcitem>
+      <keyName>javax.persistence.jdbc.password</keyName>
+      <desc>数据库密码</desc>
+      <defValue>postgres</defValue>
+      <keyValue>postgres</keyValue>
+      <enable>true</enable>
+    </mcitem>
+  </mconfig>
+</mconfigs>

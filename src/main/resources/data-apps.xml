@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<apps>
+  <app>
+    <appId>1</appId>
+    <appName>kdm-1.0</appName>
+    <desc>kdm 1.0 应用</desc>
+    <installPath>F:\oge\kdm\kdm</installPath>
+  </app>
+  <app>
+    <appId>2</appId>
+    <appName>kdm-2.0</appName>
+    <desc>kdm 2.0 应用</desc>
+    <installPath>E:/deploy/kdm-2.0</installPath>
+  </app>
+  <app>
+    <appId>3</appId>
+    <appName>kdm-3.0</appName>
+    <desc>kdm 3.0 应用</desc>
+    <installPath>E:/deploy/kdm-3.0</installPath>
+  </app>
+  <app>
+    <appId>4</appId>
+    <appName>rmp-1.0</appName>
+    <desc>rmp 1.0 应用</desc>
+    <installPath>D:/rmp1.0</installPath>
+  </app>
+  <app>
+    <appId>5</appId>
+    <appName>rmp-2.0</appName>
+    <desc>rmp 2.0 应用</desc>
+    <installPath>D:/rmp2.0</installPath>
+  </app>
+</apps>

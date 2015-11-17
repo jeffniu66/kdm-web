@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mconfigs>
+  <mconfig filePath="./conf/eclipseLink-jdbc.properties">
+    <mcitem>
+      <keyName>javax.persistence.jdbc.user</keyName>
+      <desc>数据库用户名</desc>
+      <defValue>postgres</defValue>
+      <keyValue>postgres</keyValue>
+      <enable>true</enable>
+    </mcitem>
+    <mcitem>
+      <keyName>javax.persistence.jdbc.password</keyName>
+      <desc>数据库密码</desc>
+      <defValue>postgres</defValue>
+      <keyValue>postgres</keyValue>
+      <enable>true</enable>
+    </mcitem>
+    <mcitem>
+      <keyName>javax.persistence.jdbc.url</keyName>
+      <desc>数据库连接信息</desc>
+      <defValue>postgresql://localhost:5432/xianjiaba1207</defValue>
+      <keyValue>postgresql://localhost:5432/xianjiaba1207</keyValue>
+      <enable>true</enable>
+    </mcitem>
+  </mconfig>
+  <mconfig filePath="./conf/settings.properties">
+    <mcitem>
+      <keyName>local.kdm.ip</keyName>
+      <desc>ip</desc>
+      <defValue>127.0.0.1</defValue>
+      <keyValue>127.0.0.1</keyValue>
+      <enable>true</enable>
+    </mcitem>
+    <mcitem>
+      <keyName>local.kdm.port</keyName>
+      <desc>端口</desc>
+      <defValue>20880</defValue>
+      <keyValue>20880</keyValue>
+      <enable>true</enable>
+    </mcitem>
+  </mconfig>
+</mconfigs>

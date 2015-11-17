@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<apps>
+  <module>
+    <mid>1</mid>
+    <appId>1</appId>
+    <moduleName>kdm-integration</moduleName>
+    <installPath>./kdm-integration</installPath>
+    <descs>kdm核心</descs>
+    <startScript>bin/start.bat</startScript>
+    <stopScript>bin/stop.bat</stopScript>
+  </module>
+  <module>
+    <mid>2</mid>
+    <appId>1</appId>
+    <moduleName>kdm-rest</moduleName>
+    <installPath>./kdm-rest</installPath>
+    <descs>kdm Rest</descs>
+    <startScript>bin/start.bat</startScript>
+    <stopScript>bin/stop.bat</stopScript>
+  </module>
+  <module>
+    <mid>3</mid>
+    <appId>1</appId>
+    <moduleName>kdm-vzdb</moduleName>
+    <installPath>./kdm-vzdb</installPath>
+    <descs>与库无关</descs>
+    <startScript>bin/start.bat</startScript>
+    <stopScript>bin/stop.bat</stopScript>
+  </module>
+  
+</apps>

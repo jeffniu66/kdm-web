@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modules>
+  <module>
+    <mid>1</mid>
+    <appId>1</appId>
+    <moduleName>rmp-zookeeper</moduleName>
+    <descs>配置中间件</descs>
+    <startScript>bin/start.bat</startScript>
+    <stopScript>bin/stop.bat</stopScript>
+  </module>
+  <module>
+    <mid>2</mid>
+    <appId>1</appId>
+    <moduleName>rmp-activemq</moduleName>
+    <descs>消息中间件</descs>
+    <startScript>bin/start.bat</startScript>
+    <stopScript>bin/stop.bat</stopScript>
+  </module>
+  <module>
+    <mid>3</mid>
+    <appId>1</appId>
+    <moduleName>rmp-ddc</moduleName>
+    <descs>数据调度中心</descs>
+    <startScript>bin/start.bat</startScript>
+    <stopScript>bin/stop.bat</stopScript>
+  </module>
+  <module>
+    <mid>3</mid>
+    <appId>1</appId>
+    <moduleName>rmp-storm-nimbus</moduleName>
+    <descs>运算器nimbus模块</descs>
+    <startScript>bin/start.bat</startScript>
+    <stopScript>bin/stop.bat</stopScript>
+  </module>
+  <module>
+    <mid>3</mid>
+    <appId>1</appId>
+    <moduleName>rmp-storm-supervisor</moduleName>
+    <descs>运算器supervisor模块</descs>
+    <startScript>bin/start.bat</startScript>
+    <stopScript>bin/stop.bat</stopScript>
+  </module>
+</modules>
